@@ -1,0 +1,508 @@
+/*
+Template Name     : M-Dev Store
+Author Name       : Robin
+Author Email      : robindrmc15cuet17@gmail.com
+Theme URI         : www.m-dev-store.com | localhost/m-dev-store
+Theme Ver         : 1.1
+*/
+
+/* General Styles */
+
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background: #f0f0f0;
+    overflow-x: hidden;
+}
+
+/* Top Styles */
+
+#top {
+    background: #555555;
+    padding: 10px 0;
+}
+
+#top .offer {
+    color: #ffffff;
+}
+
+#top .offer .btn {
+    text-transform: uppercase;
+}
+
+@media(max-width: 991px) {
+    #top .offer {
+        margin-bottom: 10px;
+    }
+}
+
+@media(max-width: 991px) {
+    #top {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+
+#top a {
+    color: #ffffff;
+}
+
+#top ul.menu {
+    padding-top: 5px;
+    margin: 0px;
+    text-align: right;
+    font-size: 12px;
+    list-style: none;
+}
+
+@media(max-width: 991px) {
+    #top ul.menu {
+        text-align: center;
+    }
+}
+
+#top ul.menu>li {
+    display: inline-block;
+}
+
+#top ul.menu>li a {
+    color: #eeeeee;
+}
+
+#top ul.menu>li+li:before {
+    content: "|\00a0";
+    color: #f7f7f7;
+    padding: 0 5px;
+}
+
+/* Header Styles */
+
+.navbar {
+    background: #ffffff;
+}
+
+.navbar-collapse .right {
+    float: right;
+}
+
+.navbar-brand {
+    float: left;
+    padding: 10px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    height: 70px;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+    text-decoration: none;
+}
+
+.navbar ul.nav>li>a {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.navbar ul.nav>li>a:hover {
+    background: #e7e7e7;
+}
+
+.padding-nav {
+    padding-top: 10px;
+}
+
+.btn-primary {
+    color: rgb(255, 255, 255);
+    background: rgb(79, 191, 168);
+    border-color: rgb(65, 179, 156);
+}
+
+#search .navbar-form {
+    float: right;
+}
+
+#search {
+    clear: both;
+    border-top: solid 1px #9adacd;
+    text-align: right;
+}
+
+#search .navbar-form .input-group {
+    display: table;
+}
+
+#search .navbar-form>.input-group.form-control {
+    width: 100%;
+}
+
+#slider {
+    margin-bottom: 45px;
+}
+
+#advantages div.box.same-height {
+    background: #fff;
+    margin: 0 0 35px;
+    padding: 30px;
+    border: 1px solid #d3f0fb;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px #00a1ff;
+    max-height: 270px;
+}
+
+#advantages div.icon {
+    position: absolute;
+    width: 100%;
+    font-size: 160px;
+    z-index: 1;
+    top: 55px;
+    float: left;
+    margin: auto;
+    color: #eeeeee;
+    box-sizing: border-box;
+    text-align: center;
+    left: 0px;
+
+}
+
+#advantages h3 {
+    position: relative;
+    z-index: 2;
+
+}
+
+#advantages p {
+    position: relative;
+    z-index: 2;
+    color: #575757;
+
+}
+
+#advantages h3 a {
+    color: #4fbfa8;
+}
+
+#advantages h3 a:hover {
+    color: #23527c;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+
+div#hot {
+    background: #ffffff;
+    margin-bottom: 30px;
+    box-shadow: 0px 2px 5px #262d30;
+}
+
+div#hot h2 {
+    font-size: 30px;
+    color: #23527c;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+div.product img {
+    width: 100%;
+    height: 200px;
+}
+
+#content {
+    padding-left: 25px;
+
+}
+
+div.single {
+    width: 290px;
+}
+
+@media(max-width:798px) {
+    div.single {
+        width: 60%;
+        margin: 0 auto;
+    }
+}
+
+div.product {
+    background: #ffffff;
+    margin-bottom: 30px;
+    border: 1px solid #c2bbbb;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+
+div.text {
+    padding: 10px 10px 0px;
+}
+
+p.price {
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+}
+
+p.button {
+    text-align: center;
+    clear: both;
+
+}
+
+/* Footer style  */
+div#footer {
+    background: #e0e0e0 !important;
+    padding: 10px 0px;
+    display: inline-block;
+    width: 100%
+}
+
+div#footer ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+div#footer ul a {
+    color: #474444;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+div#footer ul a:hover {
+    color: #666666
+}
+
+div#footer.social {
+    text-align: left;
+}
+
+div#footer p.social a {
+    margin: 0px 10px 0px 0px;
+    color: #ffffff;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
+    background: #555555;
+    vertical-align: bottom;
+}
+
+div#footer p.social a:hover {
+    color: #dedede;
+}
+
+div#copyright {
+    background: #333333;
+    color: #cccccc;
+    padding: 20px 0px;
+    font-size: 12px;
+}
+
+div#copyright p {
+    margin: 0px;
+}
+
+
+/*shop page style */
+
+div#content ul.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+}
+
+div#content ul.breadcrumb>li+li:before {
+    color: #cccccc;
+    content: ">\00a0";
+}
+
+@media(max-width:991px) {
+    div#content ul.breadcrumb {
+        padding: 8px 0px;
+        text-align: center;
+
+    }
+}
+
+#content div.box {
+    background: #fff;
+    padding: 20px;
+    font-size: 15px;
+    margin-bottom: 32px;
+    box-shadow: 0px 1px 5px rgb(0, 0, 0, 0.4);
+}
+
+/*Produt catagories and catagories style*/
+#content div.sidebar-menu {
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .2);
+}
+
+#content div.sidebar-menu ul.category-menu {
+    margin-bottom: 10px;
+}
+
+#content div.sidebar-menu ul.category-menu li a {
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+#content .sidebar-menu h3 {
+    padding: 5px 0px;
+    margin: 0px;
+}
+
+/* Shop product styles*/
+@media(max-width:768px) {
+    .center-responsive {
+        width: 75%;
+        margin: 0px auto;
+    }
+}
+
+@media(max-width:550px) {
+    .center-responsive {
+        width: 95%;
+        margin: 0px auto;
+    }
+}
+
+center ul.pagination {
+    display: inline-block;
+}
+
+center ul.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+}
+
+center ul.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+}
+
+center ul.pagination a:hover:not(.active) {
+    background-color: rgb(79, 191, 168);
+    color: #ffffff;
+}
+
+/*Details page style*/
+.carousel-inner img {
+    width: 100%;
+    height: 450px
+}
+
+#mainImage {
+    margin-bottom: 30px;
+}
+
+#thumbs img {
+    width: 90%;
+    height: 100px;
+}
+
+#content #productMain {
+    margin-bottom: 20px;
+}
+
+#content #productMain .price {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 300px;
+    text-align: center;
+}
+
+#content #mainImage {
+    box-shadow: 0px 1px 5 px rgba(0, 0, 0, .7);
+}
+
+#content #thumbs a {
+    display: block;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+    border: 2px solid transparent;
+}
+
+#content #row .headline {
+    height: 282px;
+}
+
+#content #row .same-height {
+    box-sizing: border-box;
+    box-shadow: 0px 1px 5px rgba(0, 0, 0, .5);
+}
+
+/*cart.php style*/
+#content #cart .table tbody tr td img {
+    width: 50px;
+}
+
+#content #cart .table tbody tr td input {
+    width: 40px;
+    text-align: right;
+}
+
+#content #cart .table tbody tr td {
+    vertical-align: middle;
+}
+
+#content #cart .table tfoot {
+    font-size: 18px;
+}
+
+.box .box-footer {
+    background-color: #f7f7f7;
+    margin: 30px -20px 20px;
+    padding: 20px;
+    border-top: 1px solid #eeeeee;
+}
+
+.box .box-footer::before,
+.box .box-footer::after {
+    content: "";
+    display: table;
+}
+
+.box .box-footer::after {
+    clear: both;
+}
+
+.box .box-header {
+    background-color: #f7f7f7;
+    margin: -20px -20px 20px;
+    padding: 20px;
+    border-top: 1px solid #eeeeee;
+}
+
+#content #order-summary table {
+    margin-top: 20px;
+}
+
+#content #order-summary table td {
+    color: #999999;
+}
+
+#content #order-summary table tr.total td,
+#content #order-summary table tr.total th {
+    font-size: 10px;
+    color: #555555;
+    font-weight: 700;
+}
+
+/*  For Firefox Only  */
+
+@-moz-document url-prefix() {
+    .form-height-custom {
+        height: auto;
+    }
+}
